@@ -1,0 +1,12 @@
+*MANUAL for the application*
+
+This manual is a in depth user guide to help a user use this application to its best functionality.
+
+The user will be first greeted by the first window page that will ask the user to click on the income and expenditur button. Once the user has clicked on the button it will direct them to a new window called the income and expenditure window. This window is where the user will input their financial information for various interests.
+
+Once the user is done and wants to add up all their amounts, the application will display the users amounts summed up together in a orderly format.
+If the user wants to continue using the application they can choose between 3 buttons named Car; Accommodation and Rent.
+
+If the user chooses the accomodation button they will be direted to the rentandProperty window.
+If the user chooses the Car option they will be directed to the Vehicle Window.
+If the they choose the Accomodation option, they will be directed to the rentandprooperty window

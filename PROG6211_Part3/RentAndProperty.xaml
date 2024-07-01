@@ -1,0 +1,17 @@
+﻿<Window x:Class="PROG6211_Part3.RentAndProperty"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PROG6211_Part3"
+        mc:Ignorable="d"
+        Title="RentAndProperty" Height="950" Width="1050">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="298,82,0,0" TextWrapping="Wrap" Text="Rent And Property" VerticalAlignment="Top" Height="72" Width="370" TextAlignment="Center" FontSize="30"/>
+        <TextBlock HorizontalAlignment="Left" Margin="180,201,0,0" TextWrapping="Wrap" Text="This section of the program is used to calculate the amounts needed to pay for the rent or to buy the propety" VerticalAlignment="Top" Height="145" Width="654" TextAlignment="Center" FontSize="30" Foreground="Crimson"/>
+        <TextBlock HorizontalAlignment="Left" Margin="42,401,0,0" TextWrapping="Wrap" Text="Please choose one of the 2 options: Rent or Buy" VerticalAlignment="Top" Height="151" Width="974" TextAlignment="Center" FontSize="40 " />
+        <Button Content="Rent" HorizontalAlignment="Left" Margin="83,711,0,0" VerticalAlignment="Top" Width="342" Height="104" Click="RentButton" FontSize="30"/>
+        <Button Content="Buy" HorizontalAlignment="Left" Margin="668,711,0,0" VerticalAlignment="Top" Width="289" Height="104" FontSize="30" Click="BuyButton"/>
+
+    </Grid>
+</Window>

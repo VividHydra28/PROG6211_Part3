@@ -1,0 +1,17 @@
+﻿<Window x:Class="PROG6211_Part3.Rent"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PROG6211_Part3"
+        mc:Ignorable="d"
+        Title="Rent" Height="450" Width="800"
+        Background="CadetBlue">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="150,45,0,0" TextWrapping="Wrap" Text="Renting a house" VerticalAlignment="Top" Width="530" Height="68" Background="White" FontSize="30" TextAlignment="Center"/>
+        <TextBox x:Name="RentInputBox" HorizontalAlignment="Left" Height="52" Margin="150,210,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="530" TextAlignment="Center" FontSize="15" TextChanged="RentInputBox_TextChanged" />
+        <TextBlock HorizontalAlignment="Left" Margin="150,151,0,0" TextWrapping="Wrap" Text="Please enter in the property rent amount" VerticalAlignment="Top" Width="530" Height="35" TextAlignment="Center" Background="Black" Foreground="FloralWhite" FontSize="18"/>
+        <Button Content="EnterInput" HorizontalAlignment="Left" Margin="306,314,0,0" VerticalAlignment="Top" Width="205" Height="56" Click="Button_Click"/>
+
+    </Grid>
+</Window>

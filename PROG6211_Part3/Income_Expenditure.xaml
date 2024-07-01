@@ -1,0 +1,33 @@
+﻿<Window x:Class="PROG6211_Part3.Income_Expenditure"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PROG6211_Part3"
+        mc:Ignorable="d"
+        Title="Income_Expenditure" Height="1050" Width="800"
+        Background="Azure">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="23,28,0,0" TextWrapping="Wrap" Text="Enter in your Gross monthly income amount before deductions." VerticalAlignment="Top" Width="293" Height="34"/>
+        <TextBox x:Name="GrossMonthlyIncomeBox" HorizontalAlignment="Left" Height="37" Margin="31,67,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="209"   BorderThickness="3" TextChanged="GrossMonthlyIncomeBox_TextChanged"/>
+        <TextBlock  HorizontalAlignment="Left" Margin="23,122,0,0" TextWrapping="Wrap" Text="Enter your estimated monthly tax deductions." VerticalAlignment="Top" Width="261" Height="44"/>
+        <TextBox x:Name="MonthlyTaxBox" HorizontalAlignment="Left" Height="38" Margin="23,166,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="201" BorderThickness="3" TextChanged="MonthlyTaxBox_TextChanged" />
+        <TextBlock  HorizontalAlignment="Left" Margin="29,225,0,0" TextWrapping="Wrap" Text="Enter your monthly groceries cost." VerticalAlignment="Top" Width="201" Height="50"/>
+        <TextBox x:Name="MonthlyGroceriesBox" HorizontalAlignment="Left" Height="46" Margin="23,258,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="201" BorderThickness="3" TextChanged="MonthlyGroceriesBox_TextChanged" />
+        <TextBlock HorizontalAlignment="Left" Margin="23,339,0,0" TextWrapping="Wrap" Text="Enter your monthly Water and Light costs" VerticalAlignment="Top" Width="201" Height="51"/>
+        <TextBox x:Name="WaterAndLightsBox" HorizontalAlignment="Left" Height="48" Margin="23,395,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="201" BorderThickness="3" TextChanged="WaterAndLightsBox_TextChanged" />
+        <TextBlock HorizontalAlignment="Left" Margin="23,462,0,0" TextWrapping="Wrap" Text="Enter in your monthly Travel costs " VerticalAlignment="Top" Width="201" Height="46"/>
+        <TextBox x:Name="TravelCostsBox" HorizontalAlignment="Left" Height="50" Margin="23,497,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="199" BorderThickness="3" TextChanged="TravelCostsBox_TextChanged"/>
+        <TextBlock HorizontalAlignment="Left" Margin="23,582,0,0" TextWrapping="Wrap" Text="Enter in your monthly Cellphone and Telephone cost" VerticalAlignment="Top" Width="199" Height="43"/>
+        <TextBox x:Name="CellphoneAndTelephoneBox" HorizontalAlignment="Left" Height="42" Margin="25,630,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="199" BorderThickness="3" TextChanged="CellphoneAndTelephoneBox_TextChanged"/>
+        <TextBlock HorizontalAlignment="Left" Margin="29,701,0,0" TextWrapping="Wrap" Text="Enter in the total of your other expenses" VerticalAlignment="Top" Width="199" Height="38"/>
+        <TextBox x:Name="OtherExpensesBox" HorizontalAlignment="Left" Height="33" Margin="23,744,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="199" BorderThickness="3" TextChanged="OtherExpensesBox_TextChanged"/>
+        <Button  Content="Add/Equals" HorizontalAlignment="Left" Margin="524,28,0,0" VerticalAlignment="Top" Width="167" Height="69" Click="TotalAddittion"/>
+        <Button Content="Car" HorizontalAlignment="Left" Margin="31,914,0,0" VerticalAlignment="Top" Width="193" Height="43" Click="Vehicle"/>
+        <Button Content="Rent" HorizontalAlignment="Left" Margin="549,914,0,0" VerticalAlignment="Top" Width="142" Height="43" Click="Property"/>
+        <Button Content="Accommodation" HorizontalAlignment="Left" Margin="308,914,0,0" VerticalAlignment="Top" Width="169" Height="43" Click="BuyHouse"/>
+        <TextBox x:Name="BudgetLedger" HorizontalAlignment="Left" Height="277" Margin="406,166,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="285" BorderThickness="5"/>
+        <TextBlock HorizontalAlignment="Left" Margin="168,831,0,0" TextWrapping="Wrap" Text="Please choose one of the 3 buttons" VerticalAlignment="Top" Height="42" Width="562" TextAlignment="Center" FontSize="30"/>
+
+    </Grid>
+</Window>
